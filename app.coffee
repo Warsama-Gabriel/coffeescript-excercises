@@ -39,5 +39,10 @@ console.log pluralizer "pizza", 3
 console.log pluralizer "girl", 1
 
 
+tempConvert = (degree) ->
+  converted = (degree * 1.8) + 32
+  fahrenheit = "#{degree} celsius is #{converted} degrees fahrenheit"
+
+console.log tempConvert(32)
 
 
